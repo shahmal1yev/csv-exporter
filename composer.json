@@ -19,5 +19,10 @@
       "CSVExporter\\": "src/",
       "Tests\\": "tests/"
     }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-unit": "vendor/bin/phpunit --testsuite Unit",
+    "test-feature": "vendor/bin/phpunit --testsuite Feature"
   }
 }
