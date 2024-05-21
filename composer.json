@@ -1,0 +1,23 @@
+{
+  "name": "shahmal1yev/csv-exporter",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shahmal1yev",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "CSVExporter\\": "src/",
+      "Tests\\": "tests/"
+    }
+  }
+}
